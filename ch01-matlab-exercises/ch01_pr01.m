@@ -3,9 +3,9 @@
 % are equal (you can use MATLAB to test whether two matrices are equal by
 % computing their difference):
 % (a) A1 = A * B, A2 = B * A, A3 = (A' * B')', A4 = (B' * A')'
-% (b)
-% (c)
-% (d)
+% (b) A1 = A' * B', A2 = (A * B)', A3 = B' * A', A4 = (B * A)'
+% (c) A1 = inv(A * B), A2 = inv(A) * inv(B), A3 = inv(B * A), A4 = inv(B) * inv(A)
+% (d) A1 = inv((A * B)'), A2 = inv(A' * B'), A3 = inv(A') * inv(B'), A4 = (inv(A) * inv(B))'
 
 A = rand(4)
 B = rand(4)
