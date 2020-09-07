@@ -10,9 +10,46 @@
 A = rand(4)
 B = rand(4)
 
+% ------------------------------------------------------------------------------
 % (a)
 
 A1 = A * B
 A2 = B * A
 A3 = (A' * B')'
 A4 = (B' * A')'
+
+% A1 is equivalent to A4
+% A2 is equivalent to A3
+
+% ------------------------------------------------------------------------------
+% (b)
+
+A1 = A' * B'
+A2 = (A * B)'
+A3 = B' * A'
+A4 = (B * A)'
+
+% A is equivalent to A
+% A is equivalent to A
+
+% ------------------------------------------------------------------------------
+% (c)
+
+A1 = inv(A * B)
+A2 = inv(A) * inv(B)
+A3 = inv(B * A)
+A4 = inv(B) * inv(A)
+
+% A is equivalent to A
+% A is equivalent to A
+
+% ------------------------------------------------------------------------------
+% (d)
+
+A1 = inv((A * B)')
+A2 = inv(A' * B')
+A3 = inv(A') * inv(B')
+A4 = (inv(A) * inv(B))'
+
+% A is equivalent to A
+% A is equivalent to A
