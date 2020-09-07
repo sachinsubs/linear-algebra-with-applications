@@ -1,3 +1,3 @@
 # linear-algebra-with-applications
 
-Leon, S. J.. “Linear Algebra with Applications.” (1980).
+Leon, Steven J. Linear Algebra with Applications. 8th ed., Pearson/Prentice Hall, 2010. 
