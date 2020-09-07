@@ -29,8 +29,8 @@ A2 = (A * B)'
 A3 = B' * A'
 A4 = (B * A)'
 
-% A is equivalent to A
-% A is equivalent to A
+% A1 is equivalent to A4
+% A2 is equivalent to A3
 
 % ------------------------------------------------------------------------------
 % (c)
@@ -40,8 +40,8 @@ A2 = inv(A) * inv(B)
 A3 = inv(B * A)
 A4 = inv(B) * inv(A)
 
-% A is equivalent to A
-% A is equivalent to A
+% A1 is equivalent to A4
+% A2 is equivalent to A3
 
 % ------------------------------------------------------------------------------
 % (d)
@@ -51,5 +51,5 @@ A2 = inv(A' * B')
 A3 = inv(A') * inv(B')
 A4 = (inv(A) * inv(B))'
 
-% A is equivalent to A
-% A is equivalent to A
+% A1 is equivalent to A3
+% A2 is equivalent to A4
